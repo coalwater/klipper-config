@@ -41,18 +41,6 @@ channel: stable
 repo: mainsail-crew/mainsail
 path: ~/mainsail
 
-
-[power homeassistant_switch]
-type: homeassistant
-protocol: https
-address: homeassistant.abushady.com
-port: 443
-device: switch.ender3v2_socket
-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjY2UwNTZkZGU5YzQ0NDM1YjU0ZGUzMmZhNzAwNzZkOCIsImlhdCI6MTcwMTk1NTg3NCwiZXhwIjoyMDE3MzE1ODc0fQ.ig0uCq6VSA0IXWz1yompiYsmSkh6C1h1BH4YJJ62POs
-domain: switch
-on_when_job_queued: True
-locked_while_printing: True
-
 [update_manager mobileraker]
 type: git_repo
 path: /home/mohammad/mobileraker_companion
